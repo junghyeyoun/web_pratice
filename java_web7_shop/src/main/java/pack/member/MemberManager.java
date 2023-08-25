@@ -57,4 +57,147 @@ public class MemberManager {
 		}
 		return list;
 	}
+	
+	public boolean checkId(String id) {
+		boolean b = false;
+		try {
+			String sql = "select id from member where id=?";
+			// String sql = "select count(id) from member where id=?"; // 위와 같음. 건수로 id 있는지 없는지 판별
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			b = rs.next();
+		} catch (Exception e) {
+			System.out.println("checkId err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+			
+		return b;
+	}
+	
+	public boolean memberInsert(MemberBean bean) {
+		boolean b = false;
+		try {
+			String sql = "insert into member values(?,?,?,?,?,?,?,?)";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, bean.getId());
+			pstmt.setString(2, bean.getPasswd());
+			pstmt.setString(3, bean.getName());
+			pstmt.setString(4, bean.getEmail());
+			pstmt.setString(5, bean.getPhone());
+			pstmt.setString(6, bean.getZipcode());
+			pstmt.setString(7, bean.getAddress());
+			pstmt.setString(8, bean.getJob());
+			if(pstmt.executeUpdate() >0) b = true;
+		} catch (Exception e) {
+			System.out.println("memberInsert err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		return b;
+	}
+	 
+	public boolean loginCheck(String id, String passwd) { // 로그인 할 수 있냐 없냐
+		boolean b = false;
+		try {
+			String sql = "select id,passwd from member where id=? and passwd=?";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			pstmt.setString(2, passwd);
+			rs = pstmt.executeQuery();
+			b = rs.next();
+		} catch (Exception e) {
+			System.out.println("loginCheck err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		
+		return b;
+	}
+	 
+	public MemberDto getMember(String id) { // 한명의 자료 읽기
+		MemberDto dto = null;
+		try {
+			String sql = "select * from member where id=?";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			if(rs.next()) {
+				dto = new MemberDto();
+				dto.setId(rs.getString("id"));
+				dto.setPasswd(rs.getString("passwd"));
+				dto.setName(rs.getString("name"));
+				dto.setEmail(rs.getString("email"));
+				dto.setPhone(rs.getString("phone"));
+				dto.setZipcode(rs.getString("zipcode"));
+				dto.setAddress(rs.getString("address"));
+				dto.setJob(rs.getString("job"));
+			}
+		} catch (Exception e) {
+			System.out.println("getMember err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		return dto;
+	}
+	
+	public boolean memberUpdate(MemberBean bean, String id) { // 회원정보 수정
+		boolean b = false; 
+		try {
+			String sql = "update member set passwd=?,name=?,email=?,phone=?,zipcode=?,address=?,job=? where id=?";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1,bean.getPasswd());
+			pstmt.setString(2,bean.getName());
+			pstmt.setString(3,bean.getEmail());
+			pstmt.setString(4,bean.getPhone());
+			pstmt.setString(5,bean.getZipcode());
+			pstmt.setString(6,bean.getAddress());
+			pstmt.setString(7,bean.getJob());
+			pstmt.setString(8,id);
+			if(pstmt.executeUpdate() >0) b = true;
+			
+		} catch (Exception e) {
+			System.out.println("memberUpdate err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		
+		return b;
+	}
 }

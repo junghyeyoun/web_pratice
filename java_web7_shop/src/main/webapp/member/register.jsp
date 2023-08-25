@@ -46,41 +46,30 @@ window.onload = function(){
 				</tr>
 
 				<tr>
-
 					<td width="18%">아이디</td>
 
 					<td width="57%"><input type="text" name="id" size="15">
-
 						<input type="button" value="ID중복확인" id="btnId"></td>
-
 				</tr>
 
 				<tr>
-
 					<td>패스워드</td>
 					<td><input type="password" name="passwd" size="15"></td>
-
 				</tr>
 
 				<tr>
-
 					<td>패스워드 확인</td>
 					<td><input type="password" name="repasswd" size="15"></td>
-
 				</tr>
 
 				<tr>
-
 					<td>이름</td>
 					<td><input type="text" name="name" size="15"></td>
-
 				</tr>
 
 				<tr>
-
 					<td>이메일</td>
 					<td><input type="text" name="email" size="27"></td>
-
 				</tr>
 
 				<tr>

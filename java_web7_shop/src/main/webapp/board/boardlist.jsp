@@ -30,7 +30,7 @@ window.onload = function() {
 <table>
 	<tr>
 		<td>
-		[<a href="../main.html">메인으로</a>]
+		[<a href="../index.jsp">메인으로</a>]
 		[<a href="boardlist.jsp?page=1">최근목록</a>]
 		[<a href="boardwrite.jsp">새글작성</a>]
 		[<a href="#" onclick="window.open('../admin/admin.jsp','','width=300, height=200, top=200, left=300')">관리자용</a>]
