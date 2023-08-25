@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=EACCD9&height=400&section=header&text=web_practice&fontSize=60&fontColor=705A64&stroke=3A2F32&strokeWidth=2&animation=twinkling)
+![header](https://capsule-render.vercel.app/api?type=wave&color=EACCD9&height=400&section=header&text=shoppingmall&fontSize=60&fontColor=705A64&stroke=3A2F32&strokeWidth=2&animation=twinkling)
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjunghyeyoun%2Fweb_pratice.git&count_bg=%23EBD8E7&title_bg=%23A17D92&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 
 # 💡게시판 만들기
