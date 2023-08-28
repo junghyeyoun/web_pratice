@@ -19,7 +19,7 @@
 
 
 ## 3️⃣ 로그인 & 로그아웃
-![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/0874a167-16da-4072-9ba4-742ad9b7e9ac)
+![회원관리](https://github.com/junghyeyoun/web_pratice/assets/138744937/e440e1da-d208-46b4-84ed-c8b27f9689d7)
 
 
 ## 4️⃣ 회원정보 수정
