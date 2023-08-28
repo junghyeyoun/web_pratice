@@ -11,15 +11,19 @@
 # 💡 회원 관리
 
 ## 1️⃣ Bean
+![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/bd9f61de-f4fc-4d2b-963b-983b022bdf23)
 
 
 ## 2️⃣ 회원 가입
+![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/12b05a93-e7d6-4b22-a39c-8f6d30ae7bb3)
 
 
 ## 3️⃣ 로그인 & 로그아웃
+![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/0874a167-16da-4072-9ba4-742ad9b7e9ac)
 
 
 ## 4️⃣ 회원정보 수정
+![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/51f4c2c6-357c-4a2c-ba04-e7c857e8ac38)
 
 
 # 💡쇼핑몰 전체흐름
