@@ -200,4 +200,92 @@ public class MemberManager {
 		
 		return b;
 	}
+	
+	// 관리자 로그인 처리용 
+	public boolean adminLoginCheck(String adminid, String adminpasswd) {
+		System.out.println(adminid+" "+adminpasswd);
+		boolean b = false;
+		try {
+			String sql = "select * from admin where admin_id=? and admin_passwd=? ";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, adminid);
+			pstmt.setString(2, adminpasswd);
+			rs = pstmt.executeQuery();
+			b = rs.next();
+		} catch (Exception e) {
+			System.out.println("adminLoginCheck err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		return b;
+	}
+	
+	public ArrayList<MemberDto> getMemberAll() { // 전체 자료 읽기
+		 ArrayList<MemberDto> mlist = new ArrayList<MemberDto>();
+		try {
+			String sql = "select * from member order by id asc";
+			conn = ds.getConnection();
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+			while(rs.next()) {
+				MemberDto dto = new MemberDto();
+				dto = new MemberDto();
+				dto.setId(rs.getString("id"));
+				dto.setPasswd(rs.getString("passwd"));
+				dto.setName(rs.getString("name"));
+				dto.setEmail(rs.getString("email"));
+				dto.setPhone(rs.getString("phone"));
+				dto.setZipcode(rs.getString("zipcode"));
+				dto.setAddress(rs.getString("address"));
+				dto.setJob(rs.getString("job"));
+				mlist.add(dto);
+			}
+		} catch (Exception e) {
+			System.out.println("getMemberAll err : "+e);
+		} finally {
+			try {
+				if(rs != null) rs.close();
+				if(pstmt != null) pstmt.close();
+				if(conn != null) conn.close();
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+		return mlist;
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

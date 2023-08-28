@@ -71,7 +71,7 @@ if(check.equals("n")){  // n일때만 만남(y : x)
 %>
     <table>
         <tr>
-            <td style="color: red; font-weight: bold;">검색 자료를 입력하면 자동으로 주소가 입력됩ㄴ다</td>
+            <td style="color: red; font-weight: bold;">검색 자료를 입력하면 자동으로 주소가 입력됩니다</td>
         </tr>
         <tr>
             <td>
