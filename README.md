@@ -30,5 +30,7 @@
 ![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/e0750a83-3803-4b3b-aaf0-b223a9812023)
 
  세부적인 내용은 생략한 것이 있으니 코드를 참조해야 한다.
-  모델1 방식을 이용해 간단하게 쇼핑몰을 만든 것이다.
-  모델1,2에 관한 설명 : https://hsp1116.tistory.com/9
+  
+   모델1 방식을 이용해 간단하게 쇼핑몰을 만든 것이다.
+ 
+   모델1,2에 관한 설명 : https://hsp1116.tistory.com/9
