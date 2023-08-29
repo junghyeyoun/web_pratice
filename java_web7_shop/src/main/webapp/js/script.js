@@ -107,10 +107,33 @@ function productDelete(no) {
    document.deleteForm.no.value = no;
    document.deleteForm.submit();
 }
+ 
+// 사용자에서 상품 처리용 
+function productDetail_g(no) {	
+   // alert(no);
+   document.detailFrm.no.value = no;
+   document.detailFrm.submit();
+}
 
+// cart 처리용
+function cartUpdate(form) {
+	// alert("a");
+	form.flag.value = "update";
+	form.submit();
+}
 
+function cartDelete(form) {
+	// alert("b");
+	form.flag.value = "del";
+	form.submit();
+}
 
-
+// 카트에서 상세보기 사용
+function productDetailCart(no) {	
+   // alert(no);
+   document.detailFrm.no.value = no;
+   document.detailFrm.submit();
+}
 
 
 

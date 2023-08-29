@@ -47,6 +47,7 @@ ProductDto dto = productMgr.getProduct(request.getParameter("no"));
 	<tr>
 		<td colspan="2" style="text-align: center;">
 		<br>
+			<input type="hidden" name="no" value="<%=dto.getNo()%>">
 			<input type="submit" value="상품 수정">
 			<input type="submit" value="수정 취소" onclick="history.back()">
 		</td>

@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public class OrderBean {
-	private String no,product_no,quantitiy,sdate,state,id;
+	private String no,product_no,quantity,sdate,state,id;
 }
