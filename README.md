@@ -7,40 +7,55 @@
 ![게시판 전체흐름 new](https://github.com/junghyeyoun/web_pratice/assets/138744937/75b6195d-740b-4003-9673-4b07b3e5fada)
 ![전체흐름 2](https://github.com/junghyeyoun/web_pratice/assets/138744937/6d82ca5c-eda3-49f5-af00-27b7f788331b)
  
+# 💡 화면 구현
 
-# 💡 회원 관리 - 사용자
+## 📍 사용자
 
-## 1️⃣ Bean
+![사용자 화면](https://github.com/junghyeyoun/web_pratice/assets/138744937/9d7be527-887c-4f81-9ce5-c7de63ef3a51)
 
-![bean](https://github.com/junghyeyoun/web_pratice/assets/138744937/e9bcbe92-d8c6-4eb6-a61b-f35122b4c6f7)
-
-## 2️⃣ 회원 가입
-![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/12b05a93-e7d6-4b22-a39c-8f6d30ae7bb3)
-
-
-## 3️⃣ 로그인 & 로그아웃
-![회원관리](https://github.com/junghyeyoun/web_pratice/assets/138744937/e440e1da-d208-46b4-84ed-c8b27f9689d7)
-
-
-## 4️⃣ 회원정보 수정
-![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/51f4c2c6-357c-4a2c-ba04-e7c857e8ac38)
-
-# 💡회원관리 - 관리자
- 사용자의 회원관리와 성격이 비슷하기 때문에 같은 bean을 사용할 것이다.
-
-## 1️⃣ 관리자 화면
+## 📍 관리자
 
 ![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/4e5b5ab2-e37d-4d7c-b690-0e2079458052)
 
-## 2️⃣ 로그인 & 로그아웃
+# 💡 회원 관리 
+
+## 📍 사용자
+
+### 1️⃣ Bean
+
+![bean](https://github.com/junghyeyoun/web_pratice/assets/138744937/e9bcbe92-d8c6-4eb6-a61b-f35122b4c6f7)
+
+### 2️⃣ 회원 가입
+![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/12b05a93-e7d6-4b22-a39c-8f6d30ae7bb3)
+
+
+### 3️⃣ 로그인 & 로그아웃
+![회원관리](https://github.com/junghyeyoun/web_pratice/assets/138744937/e440e1da-d208-46b4-84ed-c8b27f9689d7)
+
+
+### 4️⃣ 회원정보 수정
+![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/51f4c2c6-357c-4a2c-ba04-e7c857e8ac38)
+
+## 📍 관리자
+ 사용자의 회원관리와 성격이 비슷하기 때문에 같은 bean을 사용할 것이다.
+
+### 1️⃣ 관리자 화면
+
+
+
+### 2️⃣ 로그인 & 로그아웃
 
 ![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/1ca2ff9d-59d3-4530-9b44-f8011264affd)
 
-## 3️⃣ 관리자 회원관리
+### 3️⃣ 관리자 회원관리
 
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/684b00aa-39f8-409e-ba19-f1d249709d7f)
 
-# 💡상품관리 - 관리자
+# 💡상품관리 
+
+## 📍 사용자
+
+## 📍 관자
 
 
 # 💡쇼핑몰 전체흐름
