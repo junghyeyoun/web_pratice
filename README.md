@@ -11,8 +11,8 @@
 # 💡 회원 관리 - 사용자
 
 ## 1️⃣ Bean
-![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/bd9f61de-f4fc-4d2b-963b-983b022bdf23)
 
+![bean](https://github.com/junghyeyoun/web_pratice/assets/138744937/e9bcbe92-d8c6-4eb6-a61b-f35122b4c6f7)
 
 ## 2️⃣ 회원 가입
 ![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/12b05a93-e7d6-4b22-a39c-8f6d30ae7bb3)
