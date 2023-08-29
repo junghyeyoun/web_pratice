@@ -19,21 +19,19 @@
 
 # 💡 회원 관리 
 
-## 📍 사용자
-
-### 1️⃣ Bean
+## 📍 Beans
 
 ![bean](https://github.com/junghyeyoun/web_pratice/assets/138744937/e9bcbe92-d8c6-4eb6-a61b-f35122b4c6f7)
 
-### 2️⃣ 회원 가입
+## 📍 사용자
+
+### 1️⃣ 회원 가입
 ![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/12b05a93-e7d6-4b22-a39c-8f6d30ae7bb3)
 
-
-### 3️⃣ 로그인 & 로그아웃
+### 2️⃣ 로그인 & 로그아웃
 ![회원관리](https://github.com/junghyeyoun/web_pratice/assets/138744937/e440e1da-d208-46b4-84ed-c8b27f9689d7)
 
-
-### 4️⃣ 회원정보 수정
+### 3️⃣ 회원정보 수정
 ![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/51f4c2c6-357c-4a2c-ba04-e7c857e8ac38)
 
 ## 📍 관리자
@@ -48,11 +46,17 @@
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/684b00aa-39f8-409e-ba19-f1d249709d7f)
 
 # 💡상품관리 
+## 📍 Beans
+
+![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/898a5eee-6c79-41ad-8cad-dfd5d71f5bab)
+
+## 📍 관리자
+
+![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/2c176124-21bd-4530-a28b-a1939fccb69c)
 
 ## 📍 사용자
 
-## 📍 관자
-
+![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/4a538841-3312-4f91-a758-de4d0951b674)
 
 # 💡쇼핑몰 전체흐름
 
