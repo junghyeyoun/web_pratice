@@ -8,7 +8,7 @@
 ![전체흐름 2](https://github.com/junghyeyoun/web_pratice/assets/138744937/6d82ca5c-eda3-49f5-af00-27b7f788331b)
  
 
-# 💡 회원 관리
+# 💡 회원 관리 - 사용자
 
 ## 1️⃣ Bean
 ![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/bd9f61de-f4fc-4d2b-963b-983b022bdf23)
@@ -24,6 +24,23 @@
 
 ## 4️⃣ 회원정보 수정
 ![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/51f4c2c6-357c-4a2c-ba04-e7c857e8ac38)
+
+# 💡회원관리 - 관리자
+ 사용자의 회원관리와 성격이 비슷하기 때문에 같은 bean을 사용할 것이다.
+
+## 1️⃣ 관리자 화면
+
+![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/4e5b5ab2-e37d-4d7c-b690-0e2079458052)
+
+## 2️⃣ 로그인 & 로그아웃
+
+![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/1ca2ff9d-59d3-4530-9b44-f8011264affd)
+
+## 3️⃣ 관리자 회원관리
+
+![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/684b00aa-39f8-409e-ba19-f1d249709d7f)
+
+# 💡상품관리 - 관리자
 
 
 # 💡쇼핑몰 전체흐름
