@@ -48,18 +48,18 @@
 # 💡상품&주문관리 
 ## 📍 Beans
 
-![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/898a5eee-6c79-41ad-8cad-dfd5d71f5bab)
-
-## 📍 관리자
-
-![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/2c176124-21bd-4530-a28b-a1939fccb69c)
+![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/49866bee-19e3-435f-b1f6-fe267458bb65)
 
 ## 📍 사용자
+![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/6b4127e3-abac-46ea-be09-cc8d9da3c463)
+
+## 📍 관자
 
 ### 1️⃣ 주문관리
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/4a538841-3312-4f91-a758-de4d0951b674)
 
 ### 2️⃣ 상품관리
+![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/4e7aaeb1-5d26-4469-928d-271f8c09df3a)
 
 # 💡쇼핑몰 전체흐름
 
