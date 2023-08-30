@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script>
+	$(document).ready(function(){
+		// alert("a");
+		$("#btnIns").click(function(){
+			if($("name").val() === ""){
+				alert("이름을 입력하시오.");
+				return;
+			}
+			$("#frm").submit();
+		})
+		$("#btnList").bind("click",listFunc);
+	});
+	
+	function listFunc() {
+		location.href="show.jsp";
+	}
+</script>
+</head>
+<body>
+** 글쓰기 **
+<br>
+<form action="insert.jsp" method="post" id="frm">
+	이름 : <input type="text" name="name" id="name"><br>
+	제목 : <input type="text" name="subject" id="subject"><br>
+	내용 : <textarea name="contents" id="contents" rows="5" cols="50"></textarea><br>
+	<input type="button" value="글 추가" id="btnIns" />
+	<input type="reset" value="입력 취소" />
+	<input type="button" value="방명록 보기" id="btnList"/>
+	
+</form>
+</body>
+</html>
