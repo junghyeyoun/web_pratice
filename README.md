@@ -53,10 +53,10 @@
 ## 📍 사용자
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/6b4127e3-abac-46ea-be09-cc8d9da3c463)
 
-## 📍 관자
+## 📍 관리자
 
 ### 1️⃣ 주문관리
-![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/4a538841-3312-4f91-a758-de4d0951b674)
+![슬라이드2](https://github.com/junghyeyoun/web_pratice/assets/138744937/4887bcf2-07d2-4688-a4b9-b260516809e7)
 
 ### 2️⃣ 상품관리
 ![슬라이드4](https://github.com/junghyeyoun/web_pratice/assets/138744937/4e7aaeb1-5d26-4469-928d-271f8c09df3a)
