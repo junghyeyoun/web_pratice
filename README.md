@@ -45,7 +45,7 @@
 
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/684b00aa-39f8-409e-ba19-f1d249709d7f)
 
-# 💡상품관리 
+# 💡상품&주문관리 
 ## 📍 Beans
 
 ![슬라이드1](https://github.com/junghyeyoun/web_pratice/assets/138744937/898a5eee-6c79-41ad-8cad-dfd5d71f5bab)
@@ -56,7 +56,10 @@
 
 ## 📍 사용자
 
+### 1️⃣ 주문관리
 ![슬라이드3](https://github.com/junghyeyoun/web_pratice/assets/138744937/4a538841-3312-4f91-a758-de4d0951b674)
+
+### 2️⃣ 상품관리
 
 # 💡쇼핑몰 전체흐름
 
