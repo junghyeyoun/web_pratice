@@ -34,7 +34,7 @@
 	%>
 	<tr>
 		<td><%=ord.getNo() %></td>
-		<td><%=product.getNo() %></td>  
+		<td><%=product.getName() %></td>  
 		<td><%=ord.getQuantity() %></td>
 		<td><%=ord.getSdate() %></td>
 		<td>

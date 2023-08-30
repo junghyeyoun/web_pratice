@@ -135,7 +135,23 @@ function productDetailCart(no) {
    document.detailFrm.submit();
 }
 
+// 관리자-주문관리에서 사용
+function orderDetail(no) {
+   document.detailFrm.no.value = no;
+   document.detailFrm.submit();
+}
 
+function orderUpdate(form) {
+   // alert("a");
+   document.detailFrm.flag.value = "update";
+   form.submit();
+}
+
+function orderDelete(form) {
+  //  alert("b");
+   document.detailFrm.flag.value = "delete";
+   form.submit();
+}
 
 
 

@@ -3,7 +3,7 @@
 <hr style="width:100%;"/>
 <table style="width:90%">
 	<tr>
-		<td style="text=align:center;">
+		<td style="text-align:center;">
 			<b>고객님 환영합니다.</b> (주) 에이콘 상사 : 01-111-1111
 		</td>
 		<td style="text-align:right;">
